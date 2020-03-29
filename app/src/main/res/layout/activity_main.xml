@@ -3,11 +3,21 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
 
+    <EditText
+        android:id="@+id/edt_mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></EditText>
     <Button
-        android:id="@+id/btn_get_all_subject"
+        android:id="@+id/btn_create_schedule"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_mssv"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
-        android:text="Get All Subject" />
+        android:text="Tạo Thời khóa biểu">
+    </Button>
+
 </RelativeLayout>
